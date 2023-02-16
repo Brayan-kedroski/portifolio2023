@@ -7,10 +7,12 @@
   box-sizing: border-box;
   font-family: "Roboto Slab", serif;
 }
+
 #logo{
   padding: 10px;
   font-size:  1.5rem; 
   color: white;
+  background: none;
  
 }
 #logo::before{
@@ -29,7 +31,10 @@
 
 body {
   min-height: 100vh;
-  background-color: #e7efe1;
+  max-width: 100vw;
+
+  background-image: linear-gradient(45deg, purple 0%, purple 100%);
+
 }
 
 #id {
@@ -37,18 +42,21 @@ body {
 }
 
 
-.back{
-  background-image: url(http://cdn130.picsart.com/302324699170201.gif);
-}
-#apresentacao {
+
+#apresentacao { 
+
   font-family: "Body";
   margin-top: 0px;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  width: 100vw;
+  max-width: 100vw;
   height: 550px;
   justify-content: center;
   align-items: center;
+  
+  -webkit-mask-image: linear-gradient(to top, transparent 1%, black 30%);
+  background-image: url(http://cdn130.picsart.com/302324699170201.gif);
  
 }
 #apresentacao p {
@@ -56,7 +64,7 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
-.libutton {
+ .libutton {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,7 +78,7 @@ body {
   border-radius: 16px;
   background-color: #0a66c2;
   font-family: "SF Pro Text", Helvetica, sans-serif;
-}
+} 
 #apresentacao .img img {
   margin-top: 10px;
   width: 400px;
