@@ -1,4 +1,4 @@
- #resumo{
+ /* #resumo{
   display: flex;
   flex-direction: column;
   background-color: purple;
@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 40px;
+  
+  
    }
   #title{
     display: flex;
@@ -18,8 +21,8 @@
     justify-content: center; 
     
    
-    
   } 
+  */
 
   .h{
     background-image: url(http://cdn130.picsart.com/302324699170201.gif);
