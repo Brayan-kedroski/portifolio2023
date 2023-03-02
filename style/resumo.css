@@ -23,7 +23,23 @@
    
   } 
   */
-
-  .h{
-    background-image: url(http://cdn130.picsart.com/302324699170201.gif);
+  #texto2{
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+  
+  }
+  #texto3{
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-bottom: 10px;
   }
