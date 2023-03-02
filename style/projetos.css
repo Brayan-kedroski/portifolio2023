@@ -1,0 +1,23 @@
+img {
+  width: 800px;
+}
+#texto4 {
+  width: 850px;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.but {
+  width: 100px;
+  height: 10px;
+  font-size: 20px;
+}
+#git {
+  width: 100px;
+}

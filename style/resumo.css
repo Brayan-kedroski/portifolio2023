@@ -1,4 +1,4 @@
- /* #resumo{
+/* #resumo{
   display: flex;
   flex-direction: column;
   background-color: purple;
@@ -23,23 +23,29 @@
    
   } 
   */
-  #texto2{
-    background-color: rgb(255, 255, 255, 0.3);
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 20px;
-    margin-right: 250px;
-    margin-left: 250px;
-  
-  }
-  #texto3{
-    background-color: rgb(255, 255, 255, 0.3);
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 30px;
-    margin-right: 500px;
-    margin-left: 500px;
-    margin-bottom: 10px;
-  }
+#texto2 {
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+#texto3 {
+  width: 850px;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 500px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+#alinhar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
