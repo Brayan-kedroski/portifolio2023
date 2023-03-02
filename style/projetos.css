@@ -1,23 +1,44 @@
 img {
-  width: 800px;
+  width: 400px;
 }
 #texto4 {
-  width: 850px;
+  min-width: 850px;
   background-color: rgb(255, 255, 255, 0.3);
   padding: 10px;
   border-radius: 10px;
   margin-top: 30px;
+  margin-right: 250px;
   margin-left: 250px;
   margin-bottom: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
 .but {
-  width: 100px;
-  height: 10px;
+  min-width: 100px;
+  min-height: 10px;
   font-size: 20px;
 }
 #git {
   width: 100px;
+  height: 50px;
+}
+a {
+
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+}
+
+i{
+margin-top: 0;
+font-size: 40px;
+}
+#links{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
