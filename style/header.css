@@ -1,32 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto Slab", serif;
-  
 }
 
-
-
-#logo{
+#logo {
   height: 100px;
   padding: 10px;
-  font-size:  1.5rem; 
+  font-size: 1.5rem;
   color: white;
   background: black;
   -webkit-mask-image: linear-gradient(to top, transparent 1%, black 60%);
- 
 }
-#logo::before{
+#logo::before {
   margin-left: 50px;
   content: "< ";
   font-size: 2rem;
   color: white;
   font-weight: 700;
 }
-#logo::after{
+#logo::after {
   content: " />";
   font-size: 2rem;
   color: white;
@@ -37,17 +33,14 @@ body {
   min-height: 100vh;
   max-width: 100vw;
 
- background-color: black;
+  background-color: black;
 }
 
 #id {
   font-size: 1.5rem;
 }
 
-
-
-#apresentacao { 
-
+#apresentacao {
   font-family: "Body";
   margin-top: 0px;
   display: flex;
@@ -57,21 +50,20 @@ body {
   height: 550px;
   justify-content: center;
   align-items: center;
-  
+
   -webkit-mask-image: linear-gradient(to top, transparent 1%, black 30%);
   background-image: url(http://cdn130.picsart.com/302324699170201.gif);
- 
 }
 #apresentacao p {
   color: black;
   font-size: 30px;
   font-weight: bold;
 }
- .libutton {
+.libutton {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 7px;
+  margin: 0;
   text-align: center;
   outline: none;
   text-decoration: none !important;
@@ -81,7 +73,7 @@ body {
   border-radius: 16px;
   background-color: #0a66c2;
   font-family: "SF Pro Text", Helvetica, sans-serif;
-} 
+}
 #apresentacao .img img {
   margin-top: 10px;
   width: 400px;
@@ -104,8 +96,7 @@ body {
   border-radius: 10px;
   text-align: center;
   margin-right: 200px;
-  
 }
-.h{
+.h {
   background-image: url(http://cdn130.picsart.com/302324699170201.gif);
 }

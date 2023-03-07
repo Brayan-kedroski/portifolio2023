@@ -13,9 +13,8 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  -webkit-mask-image: linear-gradient(to left, transparent 1%, black 10%);
-  -webkit-mask-image: linear-gradient(to right, transparent 1%, black 10%);
-  
+  background: linear-gradient(90deg,black,rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),black);
+
 }
 
 .but {

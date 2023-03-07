@@ -31,8 +31,9 @@
   margin-top: 20px;
   margin-right: 250px;
   margin-left: 250px;
-  -webkit-mask-image: linear-gradient(to left, transparent 1%, black 10%);
-  -webkit-mask-image: linear-gradient(to right, transparent 1%, black 10%);
+  background: linear-gradient(90deg,black,rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),black);
+ 
+  
 }
 #texto3 {
   display: flex;
@@ -49,9 +50,7 @@
   display: flex;
   justify-content: center;
   color: black;
-  -webkit-mask-image: linear-gradient(to left, transparent 1%, black 10%);
-  -webkit-mask-image: linear-gradient(to right, transparent 1%, black 10%);
-}
+  background: linear-gradient(90deg,black,rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),black);}
 #alinhar {
   display: flex;
   flex-direction: column;
