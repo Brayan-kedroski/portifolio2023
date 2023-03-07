@@ -1,0 +1,10 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(http://cdn130.picsart.com/302324699170201.gif);
+    background-position-y: 300px;
+    height: 100px;
+    padding-top: 30px;
+    -webkit-mask-image: linear-gradient( transparent 0, black 70%);
+}
