@@ -4,16 +4,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto Slab", serif;
 }
 
 #logo {
-  height: 100px;
+  font-family: "Roboto Slab", serif;
+  height: 120px;
   padding: 10px;
   font-size: 1.5rem;
   color: white;
   background: black;
-  -webkit-mask-image: linear-gradient(to top, transparent 1%, black 60%);
+  -webkit-mask-image: linear-gradient(to top, transparent 1%, black 50%);
+  
 }
 #logo::before {
   margin-left: 50px;
@@ -38,9 +39,11 @@ body {
 
 #id {
   font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
 }
 
 #apresentacao {
+  
   font-family: "Body";
   margin-top: 0px;
   display: flex;
@@ -58,6 +61,8 @@ body {
   color: black;
   font-size: 30px;
   font-weight: bold;
+  font-family: "Roboto Slab", serif;
+
 }
 .libutton {
   display: flex;
@@ -96,6 +101,7 @@ body {
   border-radius: 10px;
   text-align: center;
   margin-right: 200px;
+  font-family: "Roboto Slab", serif;
 }
 .h {
   background-image: url(http://cdn130.picsart.com/302324699170201.gif);

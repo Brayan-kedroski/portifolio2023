@@ -1,4 +1,4 @@
- /* #resumo{
+/* #resumo{
   display: flex;
   flex-direction: column;
   background-color: purple;
@@ -10,30 +10,26 @@
   
   
    } */
-  /* #title{
-    display: flex;
-    background-color: rgb(255, 255, 255, 0.3);
-    padding: 10px;
-    border-radius: 10px;
-    width: 400px;
-    text-align: center;
-    align-items: center;
-    justify-content: center; 
-    
-   
-  }  */
+#title {
+  font-size: 50px;
+  font-weight: 700;
+}
 
 #texto2 {
-  background-color: rgb(255, 255, 255, 0.3);
   padding: 10px;
   border-radius: 10px;
   text-align: center;
   margin-top: 20px;
   margin-right: 250px;
   margin-left: 250px;
-  background: linear-gradient(90deg,black,rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),black);
- 
-  
+  background: linear-gradient(
+    90deg,
+    black,
+    rgba(255, 255, 255, 0.593),
+    rgba(255, 255, 255, 0.593),
+    rgba(255, 255, 255, 0.593),
+    black
+  );
 }
 #texto3 {
   font-size: 50px;
@@ -41,7 +37,7 @@
   flex-direction: column;
   align-items: center;
   min-width: 850px;
-  background-color: rgb(255, 255, 255, 0.3);
+
   padding: 10px;
   border-radius: 10px;
   margin-top: 10px;
@@ -51,32 +47,36 @@
   display: flex;
   justify-content: center;
   color: black;
-  background: linear-gradient(90deg,black,rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),rgb(255, 255, 255, 0.3),black);}
+  background: linear-gradient(
+    90deg,
+    black,
+    rgba(255, 255, 255, 0.593),
+    rgba(255, 255, 255, 0.593),
+    rgba(255, 255, 255, 0.593),
+    black
+  );
+}
 #alinhar {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-a{
+a {
   text-decoration: none;
   text-transform: none;
 }
-.formacao{
-   font-family: 'Times New Roman', Times, serif;
-   font-size:30px;
+.formacao {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
 }
-.curso{
-  
- display: flex;
- flex-direction: column;
- margin: 10px;
- padding: 10px;
- justify-content: space-between;
-
+.curso {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-between;
 }
-#alinhar{
+#alinhar {
   display: flex;
   flex-direction: row;
 }
-
-
