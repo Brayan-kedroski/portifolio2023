@@ -1,4 +1,5 @@
 footer {
+  width: 1263px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +10,7 @@ footer {
   -webkit-mask-image: linear-gradient(transparent 0, black 70%);
 }
 .f {
-    width: 500px;
+min-width: 500px;
     
     display: flex;
   flex-direction: row;
